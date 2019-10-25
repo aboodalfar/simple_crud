@@ -25,6 +25,8 @@ CREATE TABLE `posts` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1
 
+or you can use database dump (crud.sql)
+
 
 ** to insert fake posts : 
 
