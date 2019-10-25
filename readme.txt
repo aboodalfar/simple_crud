@@ -26,6 +26,11 @@ CREATE TABLE `posts` (
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1
 
 
+** to insert fake posts : 
+
+run : {base_url}/post/seed
+
+
 
 4- crud  users :  {base_url}/user
 

@@ -59,4 +59,13 @@ public function index(){
         $this->load->view('posts/load-more-data', $data, false);
     }
 	
+
+
+ public function seed(){
+$this->post_model->seed();
+}
+
+
+
+
 }

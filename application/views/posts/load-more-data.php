@@ -2,6 +2,9 @@
     <?php if(!empty($posts)){ foreach($posts as $post){ ?>
         <div class="list-item">
             <h2><?php echo $post['title']; ?></h2>
+<h4><?php echo $post['content']; ?></h4>
+
+<br>
         </div>
     <?php } ?>
     <?php if($postNum > $postLimit){ ?>
